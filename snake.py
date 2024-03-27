@@ -25,14 +25,14 @@ w.addch(int(food[0]), int(food[1]), curses.ACS_PI)
 # Initial direction
 key = curses.KEY_RIGHT
 last_key = None # Track the last key pressed
-
+#todoo skriv en regel som ej hanterar när spelaren håller in knappen
 while True:
     next_key = w.getch()
     if next_key != -1:
         if next_key == last_key:
             # If the same button is pressed twice, display an error message
             curses.endwin()
-            print("You found the bug!")
+            print("Jag kan inte hantera din stress, en knapp i taget!!")
             quit()
         else:
             key = next_key
