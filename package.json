@@ -1,0 +1,22 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "snake with python",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sigges86/Snake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sigges86/Snake/issues"
+  },
+  "homepage": "https://github.com/Sigges86/Snake#readme",
+  "dependencies": {
+    "pip": "0.0.1"
+  }
+}
